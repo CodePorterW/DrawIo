@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-04T08:14:58.754Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="BxXcatDOsqYz43-yQy8o" version="21.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-04T08:19:09.524Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="Y8Kfvfe0qgw0Xvpjdi-k" version="21.1.4" type="github">
   <diagram id="zqbauPjEBLRnJutwsxev" name="第 1 页">
     <mxGraphModel dx="2391" dy="1137" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -11,7 +11,7 @@
           <mxGeometry x="145" y="51" width="429" height="250" as="geometry" />
         </mxCell>
         <mxCell id="D_3lXyYGzm1cd2-Fkn1J-25" value="&lt;p style=&quot;margin: 4px 0px 0px ; text-align: center&quot;&gt;&lt;font&gt;&lt;b&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;Component_tclComponentBase&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;font-size: 15px&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;+ Component_tclComponentBase()&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&lt;font size=&quot;3&quot;&gt;+ ~Component_tclComponentBase()&lt;/font&gt;&lt;/p&gt;&lt;font size=&quot;3&quot;&gt;&lt;font&gt;&amp;nbsp;+ boInitialize(const char* c_json_file_path):&amp;nbsp;bool&lt;br&gt;&amp;nbsp;+ boProcess(const uint16_t u16_cycletime_ms):bool&lt;br&gt;&amp;nbsp;+&amp;nbsp;boReadJson(const char* c_json_file_path, Json::Value &amp;amp;json_root):bool&lt;br&gt;&lt;/font&gt;&lt;font&gt;&amp;nbsp;- boInit():bool&lt;br&gt;&amp;nbsp;- boProc():bool&lt;br&gt;&amp;nbsp;- vSentOutApEvent():void&lt;br&gt;&amp;nbsp;- vRegisterApService():void&lt;br&gt;&amp;nbsp;- boParameterParser(const char* c_json_file_path):bool&lt;br&gt;&lt;/font&gt;&lt;/font&gt;&lt;br&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px ; font-size: 15px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#3399FF;" parent="1" vertex="1">
-          <mxGeometry x="929" y="36" width="531" height="236" as="geometry" />
+          <mxGeometry x="966" y="30" width="531" height="236" as="geometry" />
         </mxCell>
         <mxCell id="D_3lXyYGzm1cd2-Fkn1J-26" value="&lt;p style=&quot;margin: 4px 0px 0px ; text-align: center&quot;&gt;&lt;font&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;&lt;b&gt;ServerStartMonitor&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;font-size: 15px&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px ; font-size: 15px&quot;&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px ; font-size: 15px&quot;&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px ; font-size: 15px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#3399FF;" parent="1" vertex="1">
           <mxGeometry x="1607" y="616" width="283" height="49" as="geometry" />
@@ -43,7 +43,7 @@
             <mxPoint x="1600" y="378" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MR1ZOFi5-ZIBFbPqgOsg-1" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;fontColor=#000000;exitX=0.428;exitY=0.002;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="D_3lXyYGzm1cd2-Fkn1J-19" edge="1" target="D_3lXyYGzm1cd2-Fkn1J-25">
+        <mxCell id="MR1ZOFi5-ZIBFbPqgOsg-1" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;fontColor=#000000;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="D_3lXyYGzm1cd2-Fkn1J-19" edge="1" target="D_3lXyYGzm1cd2-Fkn1J-25">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="971" y="374" as="sourcePoint" />
             <mxPoint x="971" y="294" as="targetPoint" />
